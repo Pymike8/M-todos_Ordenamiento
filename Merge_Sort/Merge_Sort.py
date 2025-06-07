@@ -1,6 +1,3 @@
-# Explicación: Algoritmo divide y vencerás, que divide la lista en mitades, las ordena recursivamente y luego mezcla las mitades ordenadas.
-# Complejidad: O(n log n) en todos los casos
-
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr)//2
